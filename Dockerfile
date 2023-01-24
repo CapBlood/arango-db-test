@@ -1,1 +1,5 @@
 FROM arangodb
+
+ENV ARANGO_ROOT_PASSWORD openSesame
+
+EXPOSE 8529
